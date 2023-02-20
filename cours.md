@@ -51,4 +51,9 @@ Avant de sauvegarder les modifications, il faut ajouter les modifications que l'
 ```
 git add <nom de fichier>
 ```
-
+pour sauvegarder :
+```
+git add .
+git commit -m "message"
+git push
+```
