@@ -1,0 +1,27 @@
+.AAA {background-color: #b20909;}
+
+.ex1 {
+    margin: auto;
+
+  }
+  .ex2 {
+    margin: 20px 0px 0 -20px;
+}
+
+header {
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-image: linear-gradient(180deg, #0000FF, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.ABC{
+    display: flex;
+    justify-content: center;  
+}
