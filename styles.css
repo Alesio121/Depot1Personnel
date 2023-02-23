@@ -16,7 +16,7 @@ justify-content: center;
 h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    background-image: linear-gradient(180deg, #0000FF, #ffffff);
+    background-image: linear-gradient(180deg, #0000ff, #00fbff);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -30,15 +30,17 @@ body {
 	font-family: 'San Francisco' , sans-serif;
 }
 
+.AAA {
+    font-family: 'San Francisco'
 
-
+}
 form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
     width: 400px;
     /* Encadré pour voir les limites du formulaire */
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 1px solid #b20909;
     border-radius: 1em;
   }
   
@@ -92,20 +94,91 @@ form {
 
   nav ul {
     list-style: none;
-    margin: 50;
-    padding: 50;
+    margin: 0;
+    padding: 0;
     background-color: #0000FF;
   }
 
   nav li {
     display: inline-block;
-    margin-right: 1px;
+    margin-right: 20px;
 }
-
+/*couleur navigation*/
 nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    color: #333;
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+nav {
+    position: absolute;
+    position: sticky;
+}
+
+/* couleur de fond*/
+body{ 
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    color: blanc;
+    font-family: 'Lato', sans-serif;
+  }
+  body .page{
+    margin: 20px 80px;
+  }
+  /* Barre de navigation */
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    background-color: #b20909;
+    padding: 10px 0px;
+  }
+  nav .onglets{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+  }
+  nav .onglets{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  nav .onglets a {
+    margin-right: 20px;
+    cursor:pointer;
+  }
+  nav .buttons button{
+    padding: 13px 20px;
+    
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    outline:none;
+  }
+  nav .buttons .login{
+    background-color: inherit;
+    margin-right: 10px;
+     color: #b20909;
+  }
+  nav .buttons .register{
+    background-color: #b20909;
+  }
+
+  .element {
+    z-index: 10000  
+    }
+
+.premier {
+    color: white;
+}
+.troisieme {
+    color: white;
 }
