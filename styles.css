@@ -183,13 +183,17 @@ body{
     color: white;
 }
 
-.ZZZ{
-  
-
+.ZZZ {
+  display: flex;
+  justify-content: center;
+  color: #b20909;
 }
 
 
-
+.ZER {
+  display: flex;
+  justify-content: center;
+}
 
 
 
