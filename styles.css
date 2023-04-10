@@ -196,5 +196,14 @@ body{
 }
 
 
-
+.ERB {
+  display: flex;
+}
+.texte
+{
+    display: block ;
+    position: relative ;
+    left: 300px;
+    top: -370px ;
+}
 

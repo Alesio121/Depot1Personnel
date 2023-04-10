@@ -1,0 +1,216 @@
+.AAA {background-color: #b20909;}
+
+.ex1 {
+    margin: auto;
+
+  }
+  .ex2 {
+    margin: 20px 0px 0 -20px;
+}
+
+header {
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-image: linear-gradient(180deg, #0000ff, #00fbff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.ABC{
+    display: flex;
+    justify-content: center;  
+}
+
+body {
+	font-family: 'San Francisco' , sans-serif;
+}
+
+.AAA {
+    font-family: 'San Francisco'
+
+}
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #b20909;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+  }
+  
+  button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0000FF;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/*couleur navigation*/
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
+
+nav {
+    position: absolute;
+    position: sticky;
+}
+
+/* couleur de fond*/
+body{ 
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    color: blanc;
+    font-family: 'Lato', sans-serif;
+  }
+  body .page{
+    margin: 20px 80px;
+  }
+  /* Barre de navigation */
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    background-color: #b20909;
+    padding: 10px 0px;
+  }
+  nav .onglets{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+  }
+  nav .onglets{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  nav .onglets a {
+    margin-right: 20px;
+    cursor:pointer;
+  }
+  nav .buttons button{
+    padding: 13px 20px;
+    
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    outline:none;
+  }
+  nav .buttons .login{
+    background-color: inherit;
+    margin-right: 10px;
+     color: #b20909;
+  }
+  nav .buttons .register{
+    background-color: #b20909;
+  }
+
+  .element {
+    z-index: 10000  
+    }
+
+.premier {
+    color: white;
+}
+.troisieme {
+    color: white;
+}
+
+.ZZZ {
+  display: flex;
+  justify-content: center;
+  color: #b20909;
+}
+
+
+.ZER {
+  display: flex;
+  justify-content: center;
+}
+
+
+.ERB {
+  display: flex;
+}
+.texte
+{
+    display: block ;
+    position: relative ;
+    left: 300px;
+    top: -370px ;
+}
+
+.timeline-yellow{
+  display: flex;
+  background-color: #b20909;
+  padding: 11px;
+  width: 325px;
+  text-align: center;
+}

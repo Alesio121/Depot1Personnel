@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+    <link rel="icon" type="imgage/png" href="images/on.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    
+    <nav class="element">
+        <div class="onglets">
+          <a href="#top">Accueil</a>
+          <a href="#intr">Intrigue</a>
+          <a href="#chap">Chapitres</a>
+          <a href="#ani">Animé</a>
+          <a href="#shop">Boutique</a>
+        </div>
+  
+        <div class="buttons">
+          <button class="register"><a href="#com"><strong>Laisser un commentaire</strong></button></a>
+  
+        </div>
+  
+      </nav>
+
+    <header>
+
+        <img src="images/OP.png" width=200px >
+    </header>
+    <pre class="AAA"><section id="intr"><strong>
+Intrigue</strong></section>
+    </pre> 
+    <div class="premier"> 
+        Bienvenue dans le site pour apprendre tout sur l'univers de One Piece.
+        Pour commencer a comprendre l'hisoire voici un court resumé de l'oeuvre : <br>
+        One Piece (ワンピース, Wan Pīsu) est une série de shōnen mangas créée par Eiichirō Oda. 
+        Elle est prépubliée depuis le 22 juillet 1997 dans le magazine hebdomadaire Weekly Shōnen Jump, puis regroupée en tankōbon aux éditions Shūeisha depuis le 24 décembre 1997. 
+        104 tomes sont commercialisés au Japon en novembre 2022.
+        <p></p>
+        Pour continuer l'oeuvre la suite sur les arc juste en bas :
+     </div>   
+        <pre class="AAA"><section id="chap"><strong>
+Chapitres</strong></section>
+        </pre>
+     
+
+    <div class="deuxieme">
+        <marquee>
+            <a href="/EastBlue"><img src="images/arceast.jpg" width=425px height=239px></a>
+            <a href="/Alabasta"><img src="images/alabasta.jpg" width=425px height=239px></a>
+            <a href="/Skypiea"><img src="images/skypiea.jpg" width=425px height=239px></a>
+            <a href="/WaterSeven"><img src="images/water.jpg" width=425px height=239px></a>
+            <a href="page6.html"><img src="images/bark.jpg" width=425px height=239px></a>
+            <a href="page7.html"><img src="images/guerre.jpg" width=425px height=239px></a>
+            <a href="page8.html"><img src="images/homme.jpg" width=425px height=239px></a>
+            <a href="page9.html"><img src="images/punk.jpg" width=425px height=239px></a>
+            <a href="page10.html"><img src="images/rosa.jpg" width=425px height=239px></a>
+            <a href="page11.html"><img src="images/cake.jpg" width=425px height=239px></a>
+            <a href="page12.html"><img src="images/wano.jpg" width=425px height=239px></a>
+            <img src="images/continued.jpg" width=425px height=239px>
+        </marquee>
+    </div>
+    <div>   
+        <pre class="AAA"><section id="ani"><strong>
+Animé</strong></section>
+        </pre> 
+<div class="premier">
+    Si vous voulez voir l'oeuvre en version animé voici un tuto pour le voir sur un site de streaming : <br>
+    <p></p>
+    Le AddBlock est très fortement recommandé :
+   
+<p></p><a href="https://microsoftedge.microsoft.com/addons/detail/adblocker-ultimate/pciakllldcajllepkbbihkmfkikheffb" target="_blank" >AddBlock conseillé</a>
+<p></p>
+Apres avoir telecharger le AddBlock vous pouvez appuyer sur ce lien pour acceder au 1er epidose :  
+<p></p>
+<p></p><a href="https://v2.voiranime.com/anime/one-piece/one-piece-0001-vostfr/" target="_blank" >1er episode de l'animé</a>
+</div></div> 
+<pre class="AAA"><section id="shop"><strong>
+Boutique</strong></section>
+    
+</pre>
+<div class="premier">
+Acheter des figurines One Piece
+
+
+</div>
+<div class="deuxieme">
+    <a href="/figurine"><img src="images/figurine1.jpg" width=200px height=200px></a>
+    <a href="/figurine"><img src="images/figurine2.jpg" width=200px height=200px></a>
+    <a href="/figurine"><img src="images/figurine3.jpg" width=200px height=200px></a>
+</div>
+<pre class="AAA"><section id="com"><strong>
+Laisser un commentaire</strong></section>
+       
+</pre>
+
+<p>
+    <div class="premier">
+    <form action="/commentaire" method="post">
+        <pre>
+                Laisser un commantaire :
+
+        </pre>
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+            <div class="ZER">
+                <ul class="timeline">
+                    <% for (let i = 0; i < commentaire.length; i++) { %>
+                    <li class="timeline-yellow">
+                      <div class="timeline-time">
+                        <span class="date" style="text-align: left">
+                        </span>
+                        <p><%= commentaire[i].name %></p>
+                      </div>
+                      <div>
+                        <button>
+                            <input type="hidden" name="idcommentaire" value="<%= commentaire[i].id %>" />
+                            <input type="submit" value="Envoyer"/> 
+                        </button>    
+                      </div>
+            </div>
+                    </li>
+                    <% } %>
+                  </ul>
+        </div>
+        </div>
+    </form>
+    </div>
+
+
+
+
+</p>
+<pre>
